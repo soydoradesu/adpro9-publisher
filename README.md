@@ -9,3 +9,7 @@ If both the publisher and subscriber connect using the same URL, amqp://guest:gu
 
 - The publisher sent 5 event to the message broker. 
 ![alt text](image-1.png)
+
+- Why is there a spike in the message rate graph?
+The spike in the graph represents a surge in message throughput. This occurs because the publisher sends multiple messages in quick succession to the message broker, causing the message rate to rise sharply and create a visible spike in the graph.
+![alt text](image-2.png)

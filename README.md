@@ -6,3 +6,6 @@ The publisher program is designed to send exactly 5 messages to the message brok
 If both the publisher and subscriber connect using the same URL, amqp://guest:guest@localhost:5672, it means they are communicating through the same RabbitMQ broker instance running locally. This shared connection point ensures that messages published by the producer are routed to the intended consumer within the same messaging environment.
 
 ![alt text](image.png)
+
+- The publisher sent 5 event to the message broker. 
+![alt text](image-1.png)
